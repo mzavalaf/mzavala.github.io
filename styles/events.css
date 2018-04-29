@@ -1,0 +1,157 @@
+.event-intro {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+article {
+  margin-bottom: 15px;
+}
+
+#gdmbr-map {
+  width: 100%;
+}
+
+h2 { font-family: 'Comfortaa', cursive;
+	background:#4b5842;
+    text-align: center}
+/* STORM CENTER FORM STUFF*/
+
+#eventRegistration {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 10px;
+}
+
+fieldset {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #4b5842;
+  border: #4b5842 solid 1px;
+  box-shadow: 5px 5px 20px #cccccc;
+  font-family: 'Comfortaa', cursive;
+}
+
+label {
+  display: block;
+  width: 100%;
+}
+
+label span {
+  display: block;
+  font-size: 0.9em;
+  color: #daddd8;
+  padding-top: 0.9em;
+  padding-bottom: 0.2em;
+  background-color: #4b5842;
+}
+
+label input, label select,
+label textarea {
+  background-color: #f4f2ef;
+  color:  #4b5842;
+  height: 2.2em;
+  padding: .5em .3em .5em 2em;
+  margin-right: -2em;
+  border: solid 1px #b0aaa0;
+  border-radius: 1px;
+  font-size: .9em;
+  width: 100%;
+  background-image: url(../images/ico_validation.png);
+  background-repeat: no-repeat;
+  background-position: 4px -11px;
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
+  }
+
+label textarea {
+  background-image: none;
+  height: auto;
+}
+
+#eventRegistrationSubmit {
+  display: grid;
+  grid-template-columns: 1fr;
+  
+}
+
+.submitBtn {
+  -webkit-appearance: none; /*remove the apple mobile default styling*/
+  color: #fff;
+	border: none;
+  border-radius: 1px;
+  width: 90%;
+  max-width: 300px;
+  margin-top: .5em;
+  margin-bottom: 0;
+  font-size: 14px;
+  padding: 5px;
+  box-shadow: 1px 1px 1px gray;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+   background: #4b5842;
+   font-family: 'Comfortaa', cursive;
+}
+
+.submitBtn:hover {background: #8fb339;}
+
+input:focus, select:focus, textarea:focus {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5) inset;
+}
+
+input:required, select:required {
+  background-position: 4px -61px;
+}
+
+input:focus:invalid, select:focus:invalid {
+  background-position: 4px -111px;
+}
+
+input:required:valid, select:required:valid {
+  background-color: #fff;
+  background-position: 4px -161px;
+}
+
+.event-details > table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.event-details > table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 5px;
+}
+
+.event-details > table tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.route-details {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media only screen and (min-width: 800px) {
+  #eventRegistration {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .event-intro {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+  }
+
+  .route-details {
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+  }
+
+  .route-details > p {
+    margin: 0;
+    padding: 0;
+  }
+}

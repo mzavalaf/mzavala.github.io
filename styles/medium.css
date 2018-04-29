@@ -1,0 +1,91 @@
+@media only screen and (min-width: 800px) {
+  .display-small {
+    display: none;
+  }
+	
+	.header-container {
+
+  max-width: 1600px;
+ 
+}
+   .display-medium {
+    display: block;
+  }
+  .display-large {
+    display: none;
+  }
+	
+	.title a {
+	padding: 14px 14px;
+    font-size: 20px;
+  }
+	
+  .subtitle {
+    font-size: 14px;
+  }
+  .main title { 
+	 font-size: 14px;
+	 }
+	
+  nav div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  nav button {
+	font-size: 35px;
+    padding: 3px 80px;
+    display: none;
+  }
+
+  nav ul {
+    flex-direction: row;
+  }
+
+  nav ul li {
+    line-height: 1em;
+  }
+
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 14px 14px;
+    text-align: center;
+  }
+
+  nav ul.hide {
+    display: flex;
+  }
+
+  
+  .main-image {
+    width: 50%;
+  }
+
+  .weather-group {
+    width: 50%;
+  }
+
+  .forecast { 
+    display: block; 
+  }
+
+  article {
+    flex-direction: row-reverse;
+  }
+
+  .article-image {
+    width: 50%;
+  }
+
+  article p {
+    width: 50%;
+    margin-bottom: 0;
+  }
+
+   .gallery-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}

@@ -1,0 +1,59 @@
+.sales {
+  font-family: 'Comfortaa', cursive;
+  background-color:#daddd8;
+  color: #4b5842;
+  cursor: pointer;
+  padding: 14px;
+  width: 100%;
+  text-align: left;
+	border: none;
+  outline: none;
+  transition: 0.4s;
+  }
+
+.activePanel, .sales:hover {
+  background-color: #c7d59f
+;
+}
+
+.sales:after {
+  content: '\2BC6';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.activePanel:after {
+  content: "\2BC5";
+}
+
+.salesPanel {
+  display: none;
+  padding: 0 18px;
+  background-color: #daddd8;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.panelContent {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.panelContent p {
+   font-family: 'Comfortaa', cursive;
+  background-color: #daddd8;
+  color: #4b5842;}
+
+.salesPanel img {
+  max-width: 95%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .panelContent {
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -1,0 +1,7 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Mako');
+</style>
+
+font-family: 'Mako', sans-serif;
+
+<link href="https://fonts.googleapis.com/css?family=Mako" rel="stylesheet">

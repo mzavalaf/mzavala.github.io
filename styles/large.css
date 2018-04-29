@@ -1,0 +1,85 @@
+@media only screen and (min-width: 1024px) {
+	
+	
+	.header-container {
+
+  max-width: 1600px;
+ 
+}
+  
+  .title {
+    font-size: 20px;
+  }
+  .subtitle {
+    font-size: 14px;
+  }   
+
+  nav ul li a {
+    font-size: 14px;
+	padding: 14px 40px;
+  }
+
+  .main-image {
+    width: 100%;
+  }
+
+  .weather-group {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+  }
+
+  .weather-block {
+    width: auto;
+  }
+
+  .temperature {
+    text-align: left;
+    width: auto;
+    padding-left: 3em;
+  }
+
+  .precip-wind {
+    text-align: left;
+    width: auto;
+    padding-left: 3em;
+  }
+
+
+.footer-bar { font-size: 14px; }
+
+header, nav, footer { 
+  margin: auto;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  max-width: 1600px;
+ font-size: 14px;
+}
+
+main { 
+  margin: auto;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  max-width: 1300px;
+ font-size: 14px;
+}
+
+  .gallery-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .gallery-grid img:hover {
+    box-shadow: 5px 5px 10px gray;
+  }
+
+fieldset {
+    width: 48%;
+  }
+	
+.tours {
+  width: 50%;
+  margin-bottom: 0;
+ background: #4b5842;
+}
+
+}
