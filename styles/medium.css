@@ -3,11 +3,15 @@
     display: none;
   }
 	
-	.header-container {
-
+.header-container {
   max-width: 1600px;
- 
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
 }
+	
+	
    .display-medium {
     display: block;
   }
