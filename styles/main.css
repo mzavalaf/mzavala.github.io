@@ -1,6 +1,6 @@
 * { 
   box-sizing: border-box;
- background: #daddd8;
+ background: #FCFFFC;
 
   }
 .googleMap {
@@ -81,14 +81,18 @@ main {
   align-items: center;
   max-width: 100%;
   height: 110px;
-  background-color:	#daddd8;
+  background-color:	#FCFFFC;
 }
-.header-container img {background-color: #daddd8;
-	width: 220px; height: auto; }
+.header-container img {
+	background-color:#FCFFFC;
+	margin-left: 35px;
+	padding: 10px;
+	width: 100px;
+	height: auto; }
 
 .title a {
-padding: 12px 12px;
-margin: 0;
+padding: 0px 0px;
+margin: 1px;
 font-size: 20px;
 background-color: whitesmoke;
 color: whitesmoke;
@@ -96,10 +100,11 @@ text-decoration:none;
 }
 
 .subtitle {
-padding: 5px 5px;
-margin: 0;
+padding: 1px;
+margin: 2px;
+margin-bottom: 1px;
 font-size: 14px;
-background: #daddd8;
+background: #FCFFFC;
 color: #003366;
 }
 
@@ -250,7 +255,7 @@ article {
 .slideshow-container {
   max-width: 1500px;
   position: relative;
-  margin: auto;
+  margin-top: none;
 }
 
 /* Hide the images by default */
@@ -345,6 +350,7 @@ iframe {
 	border: none;}
 
 .topnav {
+  margin-top: 10px;
   overflow: hidden;
   background-color: #003366;
 }
