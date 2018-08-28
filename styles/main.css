@@ -59,7 +59,7 @@ main {
   padding-left: 0.5em;
   padding-right: 0.5em;
   max-width: 1300px;
- font-size: 14px;
+ font-size: 18px;
 }
 
 
@@ -231,6 +231,7 @@ footer>p {
 }
 
 .gallery-grid img {
+  background-color: gray;
   padding: 10px;
   width: 80%;
   height: auto;
@@ -251,6 +252,13 @@ article {
 
 #gdmbr-map {
   width: 100%;
+}
+
+#icon-social img { width: 50px; height: auto; margin: 1px;}
+
+#icon-social h4 { 
+	display: flex;
+	font-size:10px;
 }
 
 /* Slideshow container */
@@ -364,7 +372,7 @@ iframe {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 15px;
   background-color: #003366;
  font-family: 'Mako', sans-serif;
 }
@@ -384,7 +392,7 @@ iframe {
 }
 
 .dropdown .dropbtn {
-    font-size: 14px;    
+    font-size: 15px;    
     border: none;
     outline: none;
     color: white;
@@ -404,7 +412,7 @@ iframe {
 }
 
 .dropdown .active {
-    font-size: 14px;    
+    font-size: 15px;    
     border: none;
     outline: none;
    padding: 14px 16px;
