@@ -85,7 +85,7 @@ main {
 }
 .header-container img {
 	background-color:#FCFFFC;
-	margin-left: 30px;
+	margin-left: 0px;
 	padding: 10px;
 	width: 100px;
 	height: auto; }
@@ -168,29 +168,22 @@ color: #003366;
 .tours > table td {
   border: 1px solid #c7d59f;
   text-align: left;
-   color: #4b5842;
+  color: #4b5842;
   padding: 5px;
- background: #c7d59f;
+  background: #c7d59f;
 }
 
 .tours > table tr:nth-child(even) {
   background-color: black;
 }
 
-figure {
-  color:#4b5842;
-  font-family: 'Mako', sans-serif;
-}
-
-figcaption h3 { background-color:#4b5842; }
-
 footer .footer-bar {
   margin-top: 0.4em;
   text-align: center;
   font-size: 14px;
-	height: 200px;
-background-color:#003366;
-   font-family: 'Mako', sans-serif;}
+  height: 200px;
+  background-color:#003366;
+  font-family: 'Mako', sans-serif;}
 
 .footer-bar{
 	display: flex;
@@ -210,6 +203,14 @@ footer aside .footer-bar{
 footer aside a {  background-color: #003366;
   padding: 0.5em;
   color: lightgray; }
+
+footer a img {  
+	background-color: #003366;
+	width: 50px;
+	height: auto;
+    padding: 1px;;
+    color: lightgray; }
+
 
 footer aside span {
   font-weight: normal;
@@ -254,12 +255,8 @@ article {
   width: 100%;
 }
 
-#icon-social img { width: 50px; height: auto; margin: 1px;}
+#icon-social img { width: 25px; height: auto; margin: 1px;}
 
-#icon-social h4 { 
-	display: flex;
-	font-size:10px;
-}
 
 /* Slideshow container */
 .slideshow-container {
