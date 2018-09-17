@@ -54,9 +54,9 @@ header, nav, footer {
 
 main { 
   margin: auto;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  max-width: 1300px;
+  padding-left: none;
+  padding-right: none;
+  max-width: 1500px;
  font-size: 13px;
 }
 

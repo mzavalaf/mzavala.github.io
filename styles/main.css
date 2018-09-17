@@ -53,10 +53,10 @@ header, nav, footer {
 
 
 main { 
-  margin: auto;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  max-width: 1300px;
+  margin: none;
+  padding-left: none;
+  padding-right: none;
+  max-width: 1500px;
  font-size: 18px;
 }
 
@@ -184,18 +184,21 @@ article {
   width: 100%;
 }
 
-#icon-social img { width: 25px; height: auto; margin: 1px;}
+#icon-social img { width: 10px; height: auto; margin: 1px;}
 
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1500px;
+  max-width: auto;
   position: relative;
   margin-top: none;
 }
 
 /* Hide the images by default */
 .mySlides {
+	width: auto;
+	margin-left: none;
+	margin-right: none;
     display: none;
 }
 
