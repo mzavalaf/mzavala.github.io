@@ -46,8 +46,8 @@
 
 header, nav, footer { 
   margin: auto;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
+  padding-left: none;
+  padding-right: none;;
   max-width: 1600px;
  font-size: 14px;
 }
