@@ -1,6 +1,5 @@
 @media only screen and (min-width: 1024px) {
 	
-	
 .header-container {
   max-width: 1600px;
   display: flex;
@@ -15,11 +14,6 @@
   .subtitle {
     font-size: 14px;
   }   
-
-  nav ul li a {
-    font-size: 14px;
-	padding: 14px 40px;
-  }
 
   .main-image {
     width: 100%;

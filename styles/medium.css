@@ -30,39 +30,7 @@
   .main title { 
 	 font-size: 14px;
 	 }
-	
-  nav div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-  }
-
-  nav button {
-	font-size: 35px;
-    padding: 3px 80px;
-    display: none;
-  }
-
-  nav ul {
-    flex-direction: row;
-  }
-
-  nav ul li {
-    line-height: 1em;
-  }
-
-  nav ul li a {
-    border: none;
-    border-right: 1px solid rgba(255, 255, 255, 0.3);
-    padding: 14px 14px;
-    text-align: center;
-  }
-
-  nav ul.hide {
-    display: flex;
-  }
-
-  
+	 
   .main-image {
     width: 50%;
   }

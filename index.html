@@ -6,7 +6,8 @@
   <title> Little Brains School </title>
   <meta name="author" content="Mosiah J. Zavala">
   <meta name="description" content=" Little Brains School">
-  <link href="https://fonts.googleapis.com/css?family=Mako" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet">
   <link href="styles/normalize.css" rel="stylesheet">
   <link href="styles/main.css" rel="stylesheet">
   <link href="styles/medium.css" rel="stylesheet">
@@ -17,15 +18,18 @@
 </head>
 <body>
 	
-<header>
-    <div class="header-container">
-      <figure>
-	     <a href="index.html"><img src="images/Logo.png" alt="Little Brains School."></a>
-        <subtitle>Knowledge starts here.</subtitle>
-      </figure>
-	
-    </div>
-<div class="topnav" id="myTopnav">
+<header class="header">
+  
+<div class="header-left">
+<a href="index.html"><img src="images/Logo.png" alt="Little Brains School."><h2> Little Brains School</h2></a>
+</div>
+  <div class="header-right">
+	<a href="index.html"> Login </a>
+    <a href="index.html"><img src="images/loginicono.png" alt="Little Brains School."></a>
+  </div>
+</header>
+
+<nav class="topnav" id="myTopnav">
  <a class="active" href="index.html">Home</a>
  <div class="dropdown">
     <button class="dropbtn">Académics<i class="fa fa-caret-down"></i>
@@ -69,13 +73,10 @@
   <a href="#about">News</a>
   <a href="#">Contact us</a>
   <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-</header>
+	
+</nav>
 
-  
-
-	<br>
-  <main>
+<main>
 	  <!-- Slideshow container -->
 <div class="slideshow-container">
 
