@@ -58,6 +58,7 @@ main {
   padding-right: none;
   max-width: 1500px;
  font-size: 18px;
+ font-family: 'Raleway', sans-serif;
 }
 
 
@@ -101,7 +102,7 @@ color: #003366;
 }
 
 section { font-size: 16px;
-font-family: 'Josefin Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
 color: #4b5842; }
 
 
@@ -112,7 +113,7 @@ footer .footer-bar {
   font-size: 14px;
   height: 200px;
   background-color:#003366;
-  font-family: 'Mako', sans-serif;}
+	font-family: 'Raleway', sans-serif;}
 
 .footer-bar{
 	display: flex;
@@ -120,7 +121,10 @@ footer .footer-bar {
    align-items: center;
 }
 
-.footer-bar img { width: 100px; height: auto; background-color: #003366;}
+.footer-bar img { 
+	width: 100px; 
+	height: auto; 
+	background-color: #003366;}
 
 footer aside .footer-bar{
   background-color:#003366;
@@ -129,7 +133,8 @@ footer aside .footer-bar{
  
 }
 
-footer aside a {  background-color: #003366;
+footer aside a {  
+	background-color: #003366;
   padding: 0.5em;
   color: lightgray; }
 
@@ -264,13 +269,13 @@ article {
 
 table {
    
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Raleway', sans-serif;
     color:#4b5842;
 	border-collapse: collapse;
     width: 100%;
 }
 
-table h3{font-family: 'Josefin Sans', sans-serif;
+table h3{font-family: 'Raleway', sans-serif;
     background-color:#4b5842;}
 
 td, th {
@@ -384,7 +389,7 @@ iframe {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Raleway', sans-serif;
 
 }
 
@@ -413,7 +418,7 @@ iframe {
     color: white;
     padding: 14px 16px;
     background-color: #003366;
-    font-family: 'Josefin Sans', sans-serif;
+   font-family: 'Raleway', sans-serif;
     margin: 0;
 }
 
