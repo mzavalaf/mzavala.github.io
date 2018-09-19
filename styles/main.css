@@ -567,8 +567,7 @@ button:hover {
 
 .container-footform {
 	width: auto;
-	margin-left: 250px;
-	margin-right: 250px;
+	
 	
 }
 
@@ -586,7 +585,6 @@ span.psw {
     }
     .cancelbtn {
 		float: right;
-        margin-left: 100px;
-		margin-right: 100px;
+        
     }
 }
