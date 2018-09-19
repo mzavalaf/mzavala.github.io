@@ -77,5 +77,12 @@ fieldset {
   margin-bottom: 0;
  background-color: #daddd8;
 }
+	.container-form {
+	
+	text-align: center;
+    padding: 16px;
+	width: 400px;
+	
+}
 
 }
