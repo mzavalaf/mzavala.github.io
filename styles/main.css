@@ -501,9 +501,9 @@ form {
 
 b { text-align:;
 	color:#003366;
-	
 }
 
+label { text-align: center;}
 
 /* Full-width inputs */
 input[type=text], input[type=password] {
@@ -552,7 +552,9 @@ button:hover {
 
 /* Add padding to containers */
 .container {
-    padding: 16px;
+	text-align: center;
+    width: auto;
+	padding: 16px;
 }
 
 /* The "Forgot password" text */
