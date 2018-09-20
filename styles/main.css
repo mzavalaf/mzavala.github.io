@@ -508,7 +508,10 @@ b { text-align:;
 	color:#003366;
 }
 
-label { text-align: center;}
+label { text-align: center;
+font-family: 'Raleway', sans-serif;
+color: #003366;
+}
 
 /* Full-width inputs */
 input[type=text], input[type=password] {
@@ -578,7 +581,13 @@ button:hover {
 
 
 .container-form img {
-	width: 150px;
+	width: 150px;	
+}
+
+input {
+	font-family: 'Raleway', sans-serif;
+	background-color: white;
+	color: #003366;
 	
 	
 }
