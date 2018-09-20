@@ -496,6 +496,8 @@ iframe {
 	
 	
 }
+
+
 ---------------------------------------------------
 /* Bordered form */
 form {
@@ -542,6 +544,18 @@ button:hover {
 }
 
 /* Center the avatar image inside this container */
+
+.login-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: auto;
+  background-color: white;
+}
+
+.plattform-container {
+	width: auto;}
 .imgcontainer {
 	text-align: center;
     margin: 24px 0 12px 0;
@@ -552,21 +566,19 @@ button:hover {
     width: 100px;
     border-radius: auto;
 }
-.login-container { 
-	width: 400px;
-	}
 
 
 /* Add padding to containers */
 .container-form {
 	text-align: center;
     padding: 16px;
-	width: auto;
+	width: 400px;
 	
 }
 
-.container-footform {
-	width: auto;
+
+.container-form img {
+	width: 150px;
 	
 	
 }
