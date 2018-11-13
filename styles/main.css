@@ -336,8 +336,8 @@ iframe {
 
 /* Float the link section to the right */
 
-.header-left a h2 {
-	float: right; 
+.header-center a h2 {
+	float: center; 
 	color: #003366; 
 	background-color: #FCFFFC; 
 	font-size: 25px; margin-top: 20px;
@@ -358,7 +358,7 @@ iframe {
 	height: auto;
     }
 .header-left img { 
-	width: 70px; 
+	width: 50px; 
 	height: auto;
     margin-left: 15px;}
 
