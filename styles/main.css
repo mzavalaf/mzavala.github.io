@@ -49,16 +49,18 @@ header, nav, footer {
   padding-right: 0.0em;
   max-width: 1600px;
  font-size: 14px;
+	border-radius: .5em;
 }
 
 
 main { 
-  margin: auto;
-  padding-left: none;
-  padding-right: none;
-  max-width: 1500px;
- font-size: 18px;
- font-family: 'Raleway', sans-serif;
+
+margin: auto;
+padding-left: none;
+padding-right: none;
+max-width: 1500px;
+font-size: 18px;
+font-family: 'Raleway', sans-serif;
 }
 
 main .login-continer { 
@@ -111,6 +113,7 @@ color: #4b5842; }
 
 
 footer .footer-bar {
+	
   margin-top: 0.4em;
   text-align: center;
   font-size: 14px;
@@ -197,6 +200,7 @@ article {
 
 /* Slideshow container */
 .slideshow-container {
+   border-radius: 1em;
   max-width: auto;
   position: relative;
   margin-top: none;
