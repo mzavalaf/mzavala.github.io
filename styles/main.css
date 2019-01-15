@@ -349,22 +349,6 @@ iframe {
 	margin-left: 10px;
 }
 
-.header-right a { 
-	float: right; 
-	color: #003366; 
-	font-size: 15px; 
-	font-family: 'Josefin Sans', sans-serif;
-	margin-right: 15px;
-}
-
-.header-right img { 
-	width: 35px; 
-	height: auto;
-    }
-.header-left img { 
-	width: 50px; 
-	height: auto;
-    margin-left: 15px;}
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
 @media screen and (max-width: 500px) {
